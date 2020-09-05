@@ -1,0 +1,63 @@
+#strip {
+    background-color: black;
+    height: 1px;
+    width: 10000px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.circle{
+    width: 10em;
+    height: 10em;
+    border: 2px black;
+    border-radius: 100%;
+    
+}
+
+#red{
+    background-color: red;
+    border: 2px black;
+    display: inline-block;
+    margin-left: 18.5%;
+}
+
+#green{
+    background-color: green;
+    border: 2px black;
+    display: inline-block;
+    margin-left: 18.5%;
+}
+
+#seablue{
+    background-color: cyan;
+    border: 2px black;
+    display: inline-block;
+    margin-left: 18.5%;
+}
+
+input{
+    margin-left: 42%;
+}
+
+img{
+    margin-left: 39%;
+    border-radius: 15%;
+    width: 400px;
+    height: 280px;
+    transform: rotate(0deg);
+}
+
+img:hover{
+    border-radius: 15%;
+    width: 5px;
+    height: 5px;
+    transition: all ease 5s;
+}
+
+img:active{
+    transform: rotate(180deg);
+}
+
